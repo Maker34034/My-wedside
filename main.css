@@ -1,0 +1,19 @@
+.main {
+	color: green; text-align: center;font-size :50px;
+}
+
+.a_b{
+	background-color:inear-gradient(#73d216, #729fcf); color: green;padding:7px;border-radius:8px;font-size :20px;
+}
+
+.VHS{
+	background-color:Black; color: blue;padding:7px;border-radius:8px;font-family: "VCR OSD Mono";font-size :20px;
+}
+
+.fon{
+	 background: linear-gradient(#73d216, #729fcf);                                          
+}
+
+html, body {
+  height: 100%;
+}
