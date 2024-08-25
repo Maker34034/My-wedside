@@ -17,3 +17,7 @@
 html, body {
   height: 100%;
 }
+
+.VHS_fon{
+	background: linear-gradient(#0000FF, #FF00FF); 
+}
