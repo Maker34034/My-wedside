@@ -25,3 +25,7 @@ html, body {
 .Art_fon{
 	background: linear-gradient(#a7e8b3, #ad7fa8);
 	}
+	
+.link{
+  text-decoration: none;
+}
