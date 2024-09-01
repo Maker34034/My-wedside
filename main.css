@@ -29,3 +29,10 @@ html, body {
 .link{
   text-decoration: none;
 }
+
+.Cooperation_fon{
+	background: linear-gradient(161deg, #204a87,#000000);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}
+
+.main_cooperation{
+	color: white; text-align: center;font-size :50px;
