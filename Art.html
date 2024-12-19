@@ -21,7 +21,12 @@
 				<a href="Art/1724750598246.jpg"><img src="Art/1724750598246.jpg" width="200" height="150"></a>
 				<a href="Art/1724750598263.jpg"><img src="Art/1724750598263.jpg" width="150" height="150"></a></p>
 			
-				<middle><button class="a_b"><a class ="link" href="main.html">На главную станицу </a></button></middle>
-				
+			<button class="a_b" id="buttonGoHome">На главную станицу</button>
+			<script>
+				const button = document.getElementById('buttonGoHome');
+				button.addEventListener('click', function() {
+    				window.location.href = 'Main.html'; 
+				});
+			</script>
 	</body>
 </html>

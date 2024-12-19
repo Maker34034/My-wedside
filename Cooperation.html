@@ -9,6 +9,12 @@
 			
 			<center><a href="https://www.youtube.com/@adk755/featured"><img src="Cooperation/Alexander Alien Draga Kanobink.jpg" width="150" height="150"></a></center>
 			
-			<middle><button class="a_b"><a class ="link" href="main.html">На главную станицу </a></button></middle>
+			<button class="a_b" id="buttonGoHome">На главную станицу</button>
+			<script>
+				const button = document.getElementById('buttonGoHome');
+				button.addEventListener('click', function() {
+    				window.location.href = 'Main.html'; 
+				});
+			</script>
 	</body>
 </html>

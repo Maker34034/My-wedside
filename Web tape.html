@@ -24,6 +24,12 @@
 				<a href="https://www.youtube.com/watch?v=lCFz0nd2GOA"><img src="Wed tape/1724440190838.jpg" width="200" height="150" align="center top"></a>       <!-- CLAM_VHS_2 -->
 				<a href="https://www.youtube.com/watch?v=4mIyTrhw_TU"><img src="Wed tape/1724440190865.jpg" width="200" height="150" align="top right"></a></p>   <!-- В_павельён_космос_Вмнсте_с_Михаилом_VHS_fix_version -->
 				
-				<middle><button class="a_b"><a class ="link" href="main.html">На главную станицу </a></button></middle>
+				<button class="a_b" id="buttonGoHome">На главную станицу</button>
+				<script>
+					const button = document.getElementById('buttonGoHome');
+					button.addEventListener('click', function() {
+						window.location.href = 'Main.html'; 
+					});
+				</script>
 	</body>
 </html>
