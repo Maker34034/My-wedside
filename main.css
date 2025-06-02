@@ -36,3 +36,12 @@ html, body {
 
 .main_cooperation{
 	color: white; text-align: center;font-size :50px;
+}
+
+.alboms_fon{
+	background: linear-gradient(161deg, #DC143C,#00008B);;
+}
+
+.This_is_fon{
+	background: linear-gradient(#008B8B, #191970);
+}

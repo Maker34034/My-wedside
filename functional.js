@@ -15,6 +15,11 @@ button_3.addEventListener('click', function() {
     window.location.href = 'Cooperation.html'; 
 });
 
+const button_4 = document.getElementById('buttonAlboms');
+button_4.addEventListener('click', function() {
+    window.location.href = 'alboms_menu.html'; 
+});
+
 const button = document.getElementById('buttonGoHome');
 button.addEventListener('click', function() {
     window.location.href = 'Main.html'; 
